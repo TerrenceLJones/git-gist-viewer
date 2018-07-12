@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserProfile
+    user={Object {}}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <button
+          onClick={undefined}
+>
+          &lt;
+</button>,
+        <h1 />,
+        <img
+          alt=""
+          src="undefined"
+          style={
+                    Object {
+                              "borderRadius": "5px",
+                              "height": "100px",
+                              "width": "100px",
+                            }
+          }
+/>,
+        <div />,
+        <div />,
+        <div />,
+        <div />,
+      ],
+      "style": Object {
+        "margin": "auto",
+        "width": "500px",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "<",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": "<",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "",
+          "src": "undefined",
+          "style": Object {
+            "borderRadius": "5px",
+            "height": "100px",
+            "width": "100px",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            onClick={undefined}
+>
+            &lt;
+</button>,
+          <h1 />,
+          <img
+            alt=""
+            src="undefined"
+            style={
+                        Object {
+                                    "borderRadius": "5px",
+                                    "height": "100px",
+                                    "width": "100px",
+                                  }
+            }
+/>,
+          <div />,
+          <div />,
+          <div />,
+          <div />,
+        ],
+        "style": Object {
+          "margin": "auto",
+          "width": "500px",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "<",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "<",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "",
+            "src": "undefined",
+            "style": Object {
+              "borderRadius": "5px",
+              "height": "100px",
+              "width": "100px",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
