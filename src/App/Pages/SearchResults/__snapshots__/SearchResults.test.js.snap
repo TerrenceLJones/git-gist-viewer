@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SearchResults
+    results={
+        Array [
+            Object {
+              "id": 2,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          id={undefined}
+          style={
+                    Object {
+                              "height": "100px",
+                              "margin": "20px",
+                              "width": "100px",
+                            }
+          }
+>
+          <img
+                    alt=""
+                    src="undefined"
+                    style={
+                              Object {
+                                        "borderRadius": "50px",
+                                        "height": "50px",
+                                        "width": "50px",
+                                      }
+                    }
+          />
+          <p />
+</li>,
+      ],
+      "onClick": undefined,
+      "style": Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "listStyle": "none",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              src="undefined"
+              style={
+                            Object {
+                                          "borderRadius": "50px",
+                                          "height": "50px",
+                                          "width": "50px",
+                                        }
+              }
+/>,
+            <p />,
+          ],
+          "id": undefined,
+          "style": Object {
+            "height": "100px",
+            "margin": "20px",
+            "width": "100px",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "src": "undefined",
+              "style": Object {
+                "borderRadius": "50px",
+                "height": "50px",
+                "width": "50px",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            id={undefined}
+            style={
+                        Object {
+                                    "height": "100px",
+                                    "margin": "20px",
+                                    "width": "100px",
+                                  }
+            }
+>
+            <img
+                        alt=""
+                        src="undefined"
+                        style={
+                                    Object {
+                                                "borderRadius": "50px",
+                                                "height": "50px",
+                                                "width": "50px",
+                                              }
+                        }
+            />
+            <p />
+</li>,
+        ],
+        "onClick": undefined,
+        "style": Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "listStyle": "none",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                src="undefined"
+                style={
+                                Object {
+                                                "borderRadius": "50px",
+                                                "height": "50px",
+                                                "width": "50px",
+                                              }
+                }
+/>,
+              <p />,
+            ],
+            "id": undefined,
+            "style": Object {
+              "height": "100px",
+              "margin": "20px",
+              "width": "100px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "src": "undefined",
+                "style": Object {
+                  "borderRadius": "50px",
+                  "height": "50px",
+                  "width": "50px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
