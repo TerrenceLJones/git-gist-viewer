@@ -5,7 +5,8 @@ import { BrowserRouter } from 'react-router-dom'
 import configureStore from 'redux/configureStore';
 import rootSaga from 'redux/sagas/rootSaga';
 
-import PageManager from './components/PageManager';
+import Header from './components/Header';
+import PageManager from './components/PageManger';
 
 
 const store = configureStore();
@@ -16,6 +17,7 @@ const App = function App() {
         <BrowserRouter>
             <Provider store={store}>
                 <div>
+                    <Header />
                     <PageManager />
                 </div>
             </Provider>
